@@ -1,0 +1,181 @@
+/* LANDING PAGE 2*/
+
+.lp2-main{
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFEAD3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+  }
+  
+  /*Landing page stats*/
+  .main-stat{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+  }
+  .stat-div{
+    background-color: #903F0B;
+    width: 100%;
+    height: 100%;
+    border-radius: 1.7rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4vh;
+    color: white;
+    font-weight: 700;
+    font-size: 3.8vw;
+    white-space: normal;
+    transition: background-color 0.3s ease;
+  }
+  
+  .stat-div:hover{
+    background-color: #795109;
+  }
+  
+  /*Landing page mission*/
+  .mission-div{
+    width: 90%;
+    height: 30%;
+    display: flex;
+    align-items: space-around;
+    justify-content: space-around;
+  }
+  
+  .img{
+    width: 35rem;
+    height: 100%;
+    background-image: url("..\..\assets\images\missionimg.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 1.7rem;
+  }
+  
+  .text-div{
+    width: 30rem;
+    height: 100%;
+    margin-top: 1rem;
+    font-weight: 700;
+    padding-left: 1.5vw;
+  }
+  
+  .mission-header{
+    font-size: 5.7vw;
+    font-weight: 700;
+    color: #903F0B;
+    margin-bottom: 1rem;
+  }
+  
+  @media(max-width: 415px){
+    .mission-div{
+      flex-wrap: wrap;
+      height: 60%;
+    }
+    .img{
+      width: 100%;
+      height: 45%;
+    }
+    .text-div{
+      height: 40%;
+      padding-top: 5px;
+    }
+  }
+  
+  @media(max-width: 800px) and (min-width: 415px){
+    .mission-div{
+      flex-wrap: wrap;
+      height: 60%;
+    }
+    .img{
+      width: 100%;
+      height: 45%;
+    }
+    .text-div{
+      height: 40%;
+      padding-top: 5px;
+      width: 100%;
+    }
+    .text-div div{
+      font-size: 6vw;
+    }
+    .text-div p{
+      font-size: 3.5vw;
+    }
+  }
+  
+  @media(max-width: 1200px) and (min-width: 800px){
+    .main-stat{
+      height: 12rem;
+      width: 70rem;
+    }
+    .stat-div{
+      height: 100%;
+      width: 100%;
+    }
+    .mission-header{
+      margin: 0;
+    }
+    .mission-div{
+      flex-wrap: nowrap;
+      height: 20rem;
+      width: 85rem;
+  
+    }
+    .img{
+      width: 35rem;
+      height: 100%;
+    }
+    .text-div{
+      margin-top: 0;
+    }
+    .text-div div{
+      font-size: 5vw;
+    }
+    .text-div p{
+      font-size: 1.7vw;
+    }
+  }
+  
+  @media(min-width: 1200px){
+    .main-stat{
+      height: 11vw;
+      width: 90vw;
+      margin-top: 1vw;
+    }
+    .stat-div{
+      height: 100%;
+      width: 100%;
+      font-size: 3.2vw;
+    }
+    .mission-header{
+      margin-bottom: 1rem;
+    }
+    .mission-div{
+      flex-wrap: nowrap;
+      height: 25vw;
+      width: 90vw;
+  
+    }
+    .img{
+      width: 50%;
+      height: 90%;
+    }
+    .text-div{
+      padding-left: 0;
+      margin-top: 0;
+    }
+    .text-div div{
+      font-size: 4vw;
+      margin-bottom: 1rem;
+    }
+    .text-div p{
+      font-size: 1.35vw;
+    }
+  }
+
+  /* End */

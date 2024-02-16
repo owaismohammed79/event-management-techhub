@@ -1,5 +1,5 @@
 import './index.css'
-import Landingpage2 from './pages/Landingpage2'
+import Landingpage2 from './pages/landingpage2/Landingpage2'
 
 
 

@@ -1,6 +1,6 @@
-import LandingPageStats from '../components/LandingPageStats'
-import '../index.css'
-import LandingPageMission from '../components/LandingPageMission'
+import LandingPageStats from '../../components/LandingPageStats'
+import './Landingpage2.css'
+import LandingPageMission from '../../components/LandingPageMission'
 
 function Landingpage2() {
   return (
