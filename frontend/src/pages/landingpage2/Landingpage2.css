@@ -32,6 +32,7 @@
     font-size: 3.8vw;
     white-space: normal;
     transition: background-color 0.3s ease;
+    padding: 0 1rem;
   }
   
   .stat-div:hover{
@@ -71,7 +72,7 @@
     margin-bottom: 1rem;
   }
   
-  @media(max-width: 415px){
+  @media(max-width: 320px){
     .mission-div{
       flex-wrap: wrap;
       height: 60%;
@@ -84,15 +85,21 @@
       height: 40%;
       padding-top: 5px;
     }
+    .stat-div div{
+      font-size: 1rem;
+    }
   }
   
-  @media(max-width: 1081px) and (min-width: 415px){
+  @media(max-width: 1079px) and (min-width: 321px){
     .mission-div{
       flex-wrap: wrap;
-      height: 60%;
+       height: 60%; 
     }
     .stat-div{
-      border-radius: 4.5rem;
+      border-radius: 4rem;
+    }
+    .stat-div div{
+      font-size: 1.5rem;
     }
     .img{
       width: 100%;
@@ -111,7 +118,7 @@
     }
   }
   
-  @media(max-width: 1200px) and (min-width: 1081px){
+  @media(max-width: 1200px) and (min-width: 1080px){
     .main-stat{
       height: 12rem;
       width: 70rem;
@@ -182,7 +189,7 @@
     }
   }
 
-  @media(min-width: 1400px) and (min-height:2500px){
+  @media(min-width: 1080px) and (min-height:1920px){
     .lp2-main{
       width: 100vw;
       height: 100vh;

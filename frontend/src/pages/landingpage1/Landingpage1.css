@@ -1,5 +1,5 @@
 .lp1-main{
-    width: 100svw;
+    width: 100vw;
     background-color: #FFEAD3;
     display: flex;
     flex-direction: column;
@@ -17,6 +17,7 @@ img{
 }
 
 .slider-main{
+    margin-top: 1rem;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -39,7 +40,7 @@ img{
 .event-details h1{
     font-size: 2.5rem;
     font-weight: 700;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.5em 0;
     color: #903F0B;
 }
 
@@ -68,6 +69,7 @@ img{
     padding: 1rem;
     display: flex;
     justify-content: space-around;
+    overflow-x: auto;
     align-items: center;
     color: white;
     width: 100%;
@@ -157,4 +159,27 @@ img{
     color: #903F0B;
     font-weight: 700;
     cursor: pointer;
+}
+
+
+@media(max-width: 400px){
+    .event-details{
+        line-height: 0.8;
+    }
+    .event-details h1{
+        font-size: 1.2rem;
+        padding-bottom: 0;
+    }
+}
+
+@media (max-width: 590px){
+    .event-details{
+        width: 60%;
+        padding-right: 0.6em;
+        line-height: 1.5;
+    }
+    .event-details h1{
+        font-size: 1.8rem;
+        padding-bottom: 0.1em;
+    }
 }
